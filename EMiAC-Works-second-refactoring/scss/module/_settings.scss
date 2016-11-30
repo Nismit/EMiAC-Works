@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+Common
+--------------------------------------------------------*/
+body{
+	font-family:"ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+	position:relative;
+	width:100%;
+	color: $fontColor;
+	@include lh(25px);
+	background-color: $baseColor;
+	font-size: 14px;
+	min-width: $baseWidth;
+}

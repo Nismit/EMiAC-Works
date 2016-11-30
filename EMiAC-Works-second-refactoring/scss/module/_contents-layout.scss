@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+Contents Layout
+--------------------------------------------------------*/
+.contents {
+	width: $baseWidth;
+	margin: 0 auto;
+}
+
+.contents-main {
+	width: 792px;
+	border: 1px solid rgba(122, 122, 122, 0.3);
+	background-color: #fff;
+	float: left;
+}
+
+
+/*--------------------------------------------------------
+Sidebar
+--------------------------------------------------------*/
+aside {
+	width: 302px;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid rgba(122, 122, 122, 0.3);
+	background-color: #fff;
+	margin-left: 24px;
+}
+
+.asideInner {
+	padding: 0 15px 24px 15px;
+	border-bottom: 1px solid rgba(122, 122, 122, 0.3);
+	word-break: break-all;
+
+	&:last-child {
+		border: none;
+	}
+}

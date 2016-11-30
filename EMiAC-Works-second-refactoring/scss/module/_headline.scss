@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+Headline
+--------------------------------------------------------*/
+h1 {
+	margin: 24px 0 16px 0;
+	font-weight: 900;
+	line-height: 160%;
+	font-size: 1.5em;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #333;
+
+	&:hover {
+		color: #FA6900;
+	}
+}
+
+.single-content {
+	h2 {
+		font-size: 22px;
+		margin: 32px 0 16px 0;
+		padding-bottom: 3px;
+		border-bottom: 2px solid #69D2E7;
+	}
+
+	h3 {
+		font-size: 22px;
+		font-weight: 900;
+		margin: 32px 0 16px 0;
+	}
+
+}
+
+
+
+
+

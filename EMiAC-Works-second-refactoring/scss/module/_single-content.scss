@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+Single Content
+--------------------------------------------------------*/
+.singler {
+	margin: 24px;
+}
+
+.contents-single_eyeCatch {
+	margin-bottom: 24px;
+}
+
+.adBlock {
+	width: 675px;
+	margin: 40px auto 60px auto;
+}
+.adBlock .left {
+	width: 300px;
+	height: 250px;
+	float: left;
+	overflow: hidden;
+}
+.adBlock .right {
+	width: 300px;
+	height: 250px;
+	float: right;
+	overflow: hidden;
+}
+
+.single-content {
+	p {
+		padding: 0 16px;
+	}
+	
+	img {
+		/*margin: 32px 0;*/
+		padding: 40px 0;
+	}
+
+	ul {
+		margin: 24px 0 24px 16px;
+		padding-left: 16px;
+	}
+	ul li {
+		list-style-type: square;
+		line-height: 190%;
+	}
+	ol {
+		margin: 24px 0 24px 16px;
+		padding-left: 16px;
+	}
+	ol li {
+		list-style-type: decimal;
+		line-height: 190%;
+	}
+	a {
+		color:#333;
+	}
+	a:hover {
+		color: #FA6900;
+		text-decoration: none;
+	}
+	blockquote {
+		padding: 20px;
+		margin: 10px 0;
+		font-style: italic;
+		position: relative;
+	}
+	blockquote p {
+		padding: 0;
+	}
+	blockquote:before {
+		content: '“';
+		position: absolute;
+		left:10px;
+		top: 48px;
+		color: rgba(51,51,51,0.1);
+		font-size: 120px;
+		font-style: normal;
+	}
+	blockquote:after {
+		content: '”';
+		position: absolute;
+		right:15px;
+		bottom: -15px;
+		color: rgba(51,51,51,0.1);
+		font-size: 120px;
+		font-style: normal;
+	}
+
+	.solidBlock {
+		width: 744px;
+		box-sizing: border-box;
+		border: 1px solid rgba(122, 122, 122, 0.3);
+		margin: 24px 0;
+	}
+
+	.solidBlock .amImg {
+		padding: 16px;
+		float: left;
+		width: 250px;
+	}
+
+	.solidBlock .amImg img,
+	.solidBlock .amTex img {
+		padding: 0px !important;
+	}
+
+	.solidBlock .amTex {
+		width: 400px;
+		float: left;
+		padding: 16px;
+	}
+}
+
+/* related posts */
+.related_post_title {
+	font-size: 19px;
+	font-weight: 900;
+}
+ul.related_post {
+	margin: 15px 0;
+}
+ul.related_post:after {
+	clear:both;
+	content: ' ';
+	width: 0;
+	height: 0;
+	display:block;
+}
+ul.related_post li {
+	padding: 10px;
+	display: block;
+	width: 350px;
+	float:left;
+	border: 1px solid rgba(122, 122, 122, 0.3);
+}
+ul.related_post li:nth-child(odd) {
+	border-right: none;
+}
+ul.related_post li:nth-child(3) {
+	border-top: none;
+	border-bottom: none;
+}
+ul.related_post li:nth-child(4) {
+	border-top: none;
+	border-bottom: none;
+}
+ul.related_post li a {
+	color: #333;
+}
+ul.related_post li a.wp_rp_thumbnail {
+	display:block;
+	width: 100px;
+	float:left;
+	padding: 15px 0;
+}
+ul.related_post li a.wp_rp_thumbnail img {
+	width: 100px;
+	height: 100px;
+}
+ul.related_post li a.wp_rp_title {
+	width:240px;
+	float: left;
+	margin-left: 10px;
+}
+ul.related_post li a:hover {
+	color: #FA6900;
+	text-decoration: underline;
+}
+ul.related_post li a:hover img {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.displaySize {
+	width: 712px;
+	margin: 15px auto 0;
+}
+.displaySize .middle {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	padding: 7px 10px;
+	text-align: right;
+}
+
+.displaySize .middle.one {
+	text-align: center;
+	width: 50%;
+}
+.displaySize th {
+	padding: 7px 10px;
+	text-align: left;
+	border: 1px solid #ddd;
+	vertical-align: middle;
+}
+.displaySize td {
+	padding: 7px 10px;
+	text-align: right;
+	border: 1px solid #ddd;
+	vertical-align: middle;
+}
+.socialBlock.singleBtm {
+  border-top: 1px solid #ddd !important;
+  border-bottom: 1px solid #ddd !important;
+  padding: 28px 0 20px 0 !important;
+  margin: 15px 0 30px 0 !important;
+}
+.lastModified {
+  width: 744px;
+  border: 2px solid #69D2E7;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+}
+.lastModified .cautionMod {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ff0000;
+}
+.lastModified p span {
+  padding: 0 8px;
+}
+.socialBlock { border: 0 !important; padding: 16px 0 8px 0 !important; margin: 0 !important; }
+.socialBlock img { border: 0 !important; padding: 0; margin: 0; vertical-align: top !important; }
+.socialBlock .fbBtn,.socialBlock .haBtn,.socialBlock .twBtn,
+.socialBlock .goBtn,.socialBlock .poBtn {
+ float: left !important;
+ border: 0 !important;
+ padding: 0 !important;
+ margin: 0 16px 0px 0 !important;
+ min-height: 30px !important;
+ line-height: 18px !important;
+ text-indent: 0 !important;
+}
+.socialBlock .twBtn { width: 100px; }
+.socialBlock .goBtn { width: 70px; }
+#fb-root{ display: none; }
+

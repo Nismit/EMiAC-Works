@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+Side Title
+--------------------------------------------------------*/
+.aside-title {
+	@include googleFont();
+	padding: 20px 10px 10px;
+	font-size: 20px;
+}
+
+.aside-leftAd {
+	width: 125px;
+	float: left;
+}
+
+.aside-rightAd {
+	width: 125px;
+	float: right;
+}
+
+/*--------------------------------------------------------
+Side Search Form
+--------------------------------------------------------*/
+.form {
+	position: relative;
+}
+
+.aside-input_text {
+	font-size: 15px;
+	padding: 6px 0;
+	margin: 0;
+	border: 1px solid rgba(122, 122, 122, 0.3);
+	width: 235px;
+}
+
+.aside-input_icon {
+	width: 26px;
+	height: 26px;
+	background-color: #fff;
+	border: 1px solid rgba(122, 122, 122, 0.3);
+	padding: 1px 1px 2px;
+	vertical-align: middle;
+	position: absolute;
+	z-index: 1;
+	right: 20px;
+	top: 0;
+}
+
+.aside-input_submit {
+	width: 30px;
+	height: 31px;
+	position: absolute;
+	top: 0;
+	right: 20px;
+	display: block;
+	text-indent: -9999px;
+	cursor: pointer;
+	z-index: 5;
+	background: none;
+	border: none;
+}
+
+/*--------------------------------------------------------
+Side Recenly Post
+--------------------------------------------------------*/
+.asideInner .post {
+	margin-bottom: 16px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid rgba(122, 122, 122, 0.3);
+
+	&:last-child {
+		border-bottom: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+
+.asideInner .post .left {
+	float: left;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.asideInner .post .right {
+	width: 160px;
+	float: right;
+	color: #333;
+	font-weight: 600;
+
+	&:hover {
+		color: #FA6900;
+		text-decoration: none;
+	}
+}
+
+/*--------------------------------------------------------
+Side Ads
+--------------------------------------------------------*/
+.aside-ads {
+	padding: 24px 24px 0;
+}
+
+/*--------------------------------------------------------
+Side Category Button
+--------------------------------------------------------*/
+.btn_cat {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid rgba(122, 122, 122, 0.3);
+	padding: 20px 24px;
+	font-size: 18px;
+	margin: 24px 0;
+	text-decoration: none;
+	color: #333;
+	vertical-align: top;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+
+	&:hover {
+		@include css3('transition', 0.5s);
+		color: #fff;
+		fill: #fff;
+		background-color: #fa5600;
+	}
+
+	&.feedly {
+		margin: 24px 0 0 0;
+
+		&:hover {
+			@include css3('transition', 0.5s);
+			color: #fff;
+			fill: #fff;
+			background-color: #6cc655;
+		}
+	}
+}
+
+.aside-cat_icon {
+	width: 25px;
+	height: 25px;
+	vertical-align: top;
+	padding-right: 16px;
+}
+
+
+
+
+
+
+
+

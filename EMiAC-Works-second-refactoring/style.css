@@ -1,0 +1,116 @@
+/*
+Theme Name: EMiAC-Works-second-refactoring 
+Theme URI: http://emiac-works.com
+Author: EMiAC Works
+Author URI: http://emiac-works.com
+Description: In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: 
+
+*/
+
+
+/* Images */
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure.wp-caption.alignleft,
+img.alignleft {
+	margin: 5px 20px 5px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 10px 5px 0;
+}
+
+figure.wp-caption.alignright,
+img.alignright {
+	margin: 30px 0 30px 20px;
+}
+
+.wp-caption.alignright {
+	margin: 30px 0 30px 10px;
+}
+
+img.aligncenter {
+	margin: 0 auto;
+}
+
+img.alignnone {
+	margin: 30px 0;
+}
+
+.content form input[type="text"],
+.content form input[type="email"] {
+	width: 726px !important;
+	max-width: none !important;
+	padding: 8px !important;
+	margin: 0 0 24px 0 !important;
+	font-size: 16px !important;
+	border: 1px solid rgba(122, 122, 122, 0.3) !important;
+}
+
+.content form textarea {
+	width: 726px !important;
+	padding: 8px !important;
+	margin: 0 0 24px 0 !important;
+	font-size: 16px !important;
+	border: 1px solid rgba(122, 122, 122, 0.3) !important;
+}
+
+.content form input[type="submit"] {
+	display: block !important;
+	width: 400px;
+	margin: 0 auto !important;
+	padding: 16px 0 !important;
+	border: 1px solid rgba(122, 122, 122, 0.3) !important;
+	background-color: #69D2E7 !important;
+	color: #fff;
+	font-size: 16px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.content form input[type="submit"]:hover {
+	background-color: #278FE7;
+}
+
+/* Article Table */
+.artiTable {
+ width:95%;
+ margin: 0 auto;
+}
+
+.artiTable th,td {
+ border: 1px solid #ddd;
+ padding: 5px;
+}
+
+.artiTable th {
+ text-align:center;
+ font-weight: bold;
+}
+
+.artiTable.custom th,
+.artiTable.custom td {
+ text-align:center;
+ vertical-align:middle;
+} 
