@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+Single Subinformation
+--------------------------------------------------------*/
+.subinformation {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.subinformation-date {
+	font-size: .9rem;
+}
+
+.single-calendar {
+  	width: 16px;
+  	height: 16px;
+  	padding-right: 5px;
+  	vertical-align: -2px;
+}
+
+.single-headline {
+	width: 100%;
+	line-height: 130%;
+	@include googleFont();
+	font-size: 1.5rem;
+}
+

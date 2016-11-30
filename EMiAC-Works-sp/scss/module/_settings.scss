@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+$fontColor: #333;
+$border: 1px solid rgba(122, 122, 122, 0.3);
+
+/*--------------------------------------------------------
+COMMON SETTINGS
+--------------------------------------------------------*/
+body {
+	font-family:"ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
+	width: 100%;
+	line-height: 130%;
+	color: #333;
+	font-size: 1rem;
+	-webkit-text-size-adjust: 100%;
+}
+
+a { color: $fontColor; text-decoration: underline; tap-highlight-color: #000; }
+a:hover { text-decoration: none; }
+
+.bottomLayer {
+	position: relative;
+	z-index: 1;	
+}
+
+.input_style_reset {
+	border-radius: 0;
+	border: $border;
+	-webkit-appearance:none;
+	font-size: .9rem;
+}
+
+.ads {
+	width: 300px;
+	margin: 15px auto;
+}

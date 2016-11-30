@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+Single Content
+--------------------------------------------------------*/
+.eyeCatch {
+	padding: 25px 0;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.excerpt {
+	font-size: .95rem;
+	line-height: 140%;
+}
+
+.single-content h2 {
+	width: 100%;
+	margin: 0 0 7px 0;
+	font-size: 1.3rem;
+	line-height: 130%;
+	padding: 20px 0 3px 0;
+	border: none;
+	border-bottom: 2px solid #69D2E7;
+}
+
+.single-content h3 {
+	font-size: 1.1rem;
+	line-height: 130%;
+	padding: 20px 0 3px 0;
+}
+
+.single-content p {
+	line-height: 150%;
+	word-wrap: break-word;
+}
+
+.single-content img {
+	max-width: 100%;
+	height: auto;
+	margin: 20px 0;
+}
+
+blockquote {
+  padding: 20px;
+  margin: 10px 0;
+  font-style: italic;
+  position: relative;
+}
+
+blockquote p {
+	padding: 0;
+}
+blockquote:before {
+  content: '“';
+  position: absolute;
+  left:10px;
+  top: 48px;
+  color: rgba(51,51,51,0.1);
+  font-size: 120px;
+  font-style: normal;
+}
+blockquote:after {
+  content: '”';
+  position: absolute;
+  right:15px;
+  bottom: -15px;
+  color: rgba(51,51,51,0.1);
+  font-size: 120px;
+  font-style: normal;
+}
+
+.single-content a {
+	color: #FA6900;
+}
+
+.single-share {
+	padding-top: 30px;
+}
+
+.single-share-ul {
+	text-align: center;
+
+	li {
+		display: inline-block;
+		padding: 20px 7px;
+	}
+}
+
+.single-share-icon {
+	width: 40px;
+	height: 40px;
+}
+
+.single-link_box {
+	background-color: #f7f7f7;
+	padding: 16px 5px;
+
+	a:before {
+		content: " ";
+		background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjYiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyNiAyOCI+PHBhdGggZD0iTTAuMjUgN3EwLTEuODc1IDEuMzI4LTMuMTcybDIuMjk3LTIuMjgxcTEuMjk3LTEuMjk3IDMuMTcyLTEuMjk3IDEuODkxIDAgMy4xODcgMS4zMjhsMy4yMTkgMy4yMzRxMS4yOTcgMS4yOTcgMS4yOTcgMy4xNzIgMCAxLjkyMi0xLjM3NSAzLjI2NmwxLjM3NSAxLjM3NXExLjM0NC0xLjM3NSAzLjI1LTEuMzc1IDEuODc1IDAgMy4xODcgMS4zMTNsMy4yNSAzLjI1cTEuMzEzIDEuMzEzIDEuMzEzIDMuMTg3dC0xLjMyOCAzLjE3MmwtMi4yOTcgMi4yODFxLTEuMjk3IDEuMjk3LTMuMTcyIDEuMjk3LTEuODkxIDAtMy4xODctMS4zMjhsLTMuMjE5LTMuMjM0cS0xLjI5Ny0xLjI5Ny0xLjI5Ny0zLjE3MiAwLTEuOTIyIDEuMzc1LTMuMjY2bC0xLjM3NS0xLjM3NXEtMS4zNDQgMS4zNzUtMy4yNSAxLjM3NS0xLjg3NSAwLTMuMTg3LTEuMzEzbC0zLjI1LTMuMjVxLTEuMzEzLTEuMzEzLTEuMzEzLTMuMTg3ek0zLjI1IDdxMCAwLjYyNSAwLjQzOCAxLjA2MmwzLjI1IDMuMjVxMC40MjIgMC40MjIgMS4wNjIgMC40MjIgMC42NTYgMCAxLjEyNS0wLjQ4NC0wLjA0Ny0wLjA0Ny0wLjI5Ny0wLjI4OXQtMC4zMzYtMC4zMzYtMC4yMzQtMC4yOTctMC4yMDMtMC4zOTgtMC4wNTUtMC40M3EwLTAuNjI1IDAuNDM4LTEuMDYydDEuMDYyLTAuNDM4cTAuMjM0IDAgMC40MyAwLjA1NXQwLjM5OCAwLjIwMyAwLjI5NyAwLjIzNCAwLjMzNiAwLjMzNiAwLjI4OSAwLjI5N3EwLjUxNi0wLjQ4NCAwLjUxNi0xLjE0MSAwLTAuNjI1LTAuNDM4LTEuMDYybC0zLjIxOS0zLjIzNHEtMC40MzgtMC40MzgtMS4wNjItMC40MzgtMC42MDkgMC0xLjA2MiAwLjQyMmwtMi4yOTcgMi4yODFxLTAuNDM4IDAuNDM4LTAuNDM4IDEuMDQ3ek0xNC4yMzQgMTguMDE2cTAgMC42MjUgMC40MzggMS4wNjJsMy4yMTkgMy4yMzRxMC40MjIgMC40MjIgMS4wNjIgMC40MjIgMC42MjUgMCAxLjA2Mi0wLjQwNmwyLjI5Ny0yLjI4MXEwLjQzOC0wLjQzOCAwLjQzOC0xLjA0NyAwLTAuNjI1LTAuNDM4LTEuMDYybC0zLjI1LTMuMjVxLTAuNDM4LTAuNDM4LTEuMDYyLTAuNDM4LTAuNjU2IDAtMS4xMjUgMC41IDAuMDQ3IDAuMDQ3IDAuMjk3IDAuMjg5dDAuMzM2IDAuMzM2IDAuMjM0IDAuMjk3IDAuMjAzIDAuMzk4IDAuMDU1IDAuNDNxMCAwLjYyNS0wLjQzOCAxLjA2MnQtMS4wNjIgMC40MzhxLTAuMjM0IDAtMC40My0wLjA1NXQtMC4zOTgtMC4yMDMtMC4yOTctMC4yMzQtMC4zMzYtMC4zMzYtMC4yODktMC4yOTdxLTAuNTE2IDAuNDg0LTAuNTE2IDEuMTQxeiIgZmlsbD0iIzQ0NDQ0NCI+PC9wYXRoPjwvc3ZnPg==);
+		width: 20px;
+		height: 15px;
+		background-repeat: no-repeat;
+		background-size: 15px;
+		display: inline-block;
+	}
+}
+
+/* Related Plugin */
+.related_post {
+	li {
+		border-bottom: $border;
+		overflow: hidden;
+	}
+
+	.wp_rp_thumbnail {
+		display: block;
+		width: 30%;
+		float: left;
+		padding: 10px;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.wp_rp_title {
+		display: block;
+		width: 66%;
+  		margin-left: 29%;
+  		padding: 3%;
+	}
+}

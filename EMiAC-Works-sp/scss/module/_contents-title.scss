@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+Title
+--------------------------------------------------------*/
+.titleBlock {
+  background-color: #000;
+}
+
+.titleBlock-headline {
+  text-align: center;
+  border: none;
+  padding: 10px 0;
+  margin: 0;
+  color: #fff;
+  @include googleFont();
+  font-size: 1rem;
+}
+
+.related_post_title {
+	@extend .titleBlock-headline;
+	background-color: #000;
+}
+

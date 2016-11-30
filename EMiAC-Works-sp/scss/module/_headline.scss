@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+Headline
+--------------------------------------------------------*/
+h1 {
+}
+
+h2 {
+	width: 89%;
+	margin: 35px 0 10px 3%;
+	border-left: $border;
+	padding: 10px 0 10px 10px;
+	@include googleFont;
+	font-size: 1.0rem;
+}
+
+h3 {
+}
+

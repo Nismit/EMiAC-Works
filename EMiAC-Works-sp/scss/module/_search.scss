@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------
+HEADER/SEARCH
+--------------------------------------------------------*/
+.search {
+	border-bottom: $border;
+	position: relative;
+	height: 58px;
+	display: none;
+	opacity: 0;
+}
+
+.search-input_text {
+	width: 82%;
+	margin: 13px 3%;
+	padding: 6px 1%;	
+}
+
+.search-input_submit {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 2.9%;
+	top: 13px;
+	text-indent: -9999px;
+	z-index: 2;
+	background: rgba(0,0,0,0);
+}
+
+.search-icon {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	right: 3%;
+	top: 13px;
+	z-index: 1;
+}
+
+/*
+* Search Block Open/Close Animation
+*/
+.search.is-open {
+	display: block;
+	opacity: 1;
+	animation-duration: 1.0s;
+	animation-name: fade-in;
+	-moz-animation-duration: 1.0s;
+	-moz-animation-name: fade-in;
+	-webkit-animation-duration: 1.0s;
+	-webkit-animation-name: fade-in;
+}
+
+@keyframes fade-in {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fade-in {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+

@@ -1,0 +1,33 @@
+@mixin fs($fontSize: 13px) {
+	font-size: $fontSize;
+}
+
+@mixin lh($lineHeight: 10px) {
+	line-height: $lineHeight;
+}
+
+@mixin margin($marginTop: 0,$marginRight: 0,$marginBottom: 0,$marginLeft: 0){
+	margin: $marginTop $marginRight $marginBottom $marginLeft;
+}
+
+@mixin padding($paddingTop: 0,$paddingRight: 0,$paddingBottom: 0,$paddingLeft: 0){
+	padding: $paddingTop $paddingRight $paddingBottom $paddingLeft;
+}
+
+@mixin opacity($opacity) {
+     opacity: $opacity;
+     $opacityIE: $opacity * 100;
+     filter: alpha(opacity=$opacityIE);
+}
+
+@mixin css3($property, $value) {
+     @each $prefix in -webkit-, -moz-, -ms-, -o-, '' {
+          #{$prefix}#{$property}: $value;
+     }
+}
+
+@mixin googleFont() {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 300;
+     font-size: 0.9rem;
+}

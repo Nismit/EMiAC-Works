@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import 'base' ,'compass', 'module';
+
+
+@import "module/settings";
+@import "module/parts-arrow";
+@import "module/helper";
+@import "module/headline";
+
+/*--------------------------------------------------------
+HEADER
+--------------------------------------------------------*/
+@import "module/header";
+@import "module/search";
+
+/*--------------------------------------------------------
+Global Nav
+--------------------------------------------------------*/
+@import "module/global-nav";
+
+/*--------------------------------------------------------
+OverlayMenu
+--------------------------------------------------------*/
+@import "module/global-menu";
+
+/*--------------------------------------------------------
+MAIN
+--------------------------------------------------------*/
+main {
+	width: 100%;
+}
+
+/*--------------------------------------------------------
+ARTICLE
+--------------------------------------------------------*/
+article {
+	width: 100%;
+}
+
+article.single {
+	width: 94%;
+	padding: 0 3%;
+	border-top: $border;
+}
+
+@import "module/contents-list";
+
+/*--------------------------------------------------------
+Pager
+--------------------------------------------------------*/
+@import "module/pager";
+
+/*--------------------------------------------------------
+Breadcrumb
+--------------------------------------------------------*/
+@import "module/breadcrumb";
+
+/*--------------------------------------------------------
+Category / Tag / Search
+--------------------------------------------------------*/
+@import "module/contents-title";
+
+/*--------------------------------------------------------
+Single Subinformation
+--------------------------------------------------------*/
+@import "module/subinformation";
+
+/*--------------------------------------------------------
+Single Content
+--------------------------------------------------------*/
+@import "module/single-content";
+
+/*--------------------------------------------------------
+FOOTER
+--------------------------------------------------------*/
+.footer {
+	width: 100%;;
+	position: relative;
+	z-index: 1;
+}
+//page-footer end
+
+@import "module/list-menu";
+
+.tagsCloud {
+	width: 94%;
+	margin: 10px 3%;
+
+	li {
+		display: inline;
+
+		a {
+			display: inline-block;
+			border: $border;
+			padding: 5px 7px;
+			margin: 0 10px 14px 0;
+			@include googleFont();
+			color: #333;
+			text-decoration: none;
+
+		}
+	}
+}
+
+.footerEnd {
+	background: #000;
+	padding-bottom: 15px;
+	color: #fff;
+	text-align: center;
+}
+
+.footerPageTop {
+	background-color: #fff;
+	text-align: cneter;
+	border-top: 1px solid #333;
+
+	a {
+		display: block;
+		padding: 15px 0;
+		@include googleFont();
+		font-size: 1rem;
+		text-decoration: none;
+	}
+}
+
+.copy {
+	padding-top: 15px;
+	font-size: 0.8rem;
+}
